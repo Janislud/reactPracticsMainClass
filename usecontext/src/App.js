@@ -1,11 +1,11 @@
-import { Todo } from "./components/Todo/Todo";
+import { Outlet } from "react-router-dom";
 import { Header } from "./layouts/Header";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Todo />
+      <Outlet />
     </div>
   );
 }
