@@ -6,30 +6,36 @@ export const Header = () => {
     <header>
       <nav>
         <ul>
-          <NavLink
-            to="/todos"
-            className={({ isActive, isPending }) =>
-              isPending ? classes.pending : isActive ? classes.active : ""
-            }
-          >
-            Todos
-          </NavLink>
-          <NavLink
-            to="/posts"
-            className={({ isActive, isPending }) =>
-              isPending ? classes.pending : isActive ? classes.active : ""
-            }
-          >
-            Posts
-          </NavLink>
-          <NavLink
-            to="/users"
-            className={({ isActive, isPending }) =>
-              isPending ? classes.pending : isActive ? classes.active : ""
-            }
-          >
-            Users
-          </NavLink>
+          <li>
+            <NavLink
+              to="/todos"
+              className={({ isActive, isPending }) =>
+                isPending ? classes.pending : isActive ? classes.active : ""
+              }
+            >
+              Todos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/posts"
+              className={({ isActive, isPending }) =>
+                isPending ? classes.pending : isActive ? classes.active : ""
+              }
+            >
+              Posts
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/users"
+              className={({ isActive, isPending }) =>
+                isPending ? classes.pending : isActive ? classes.active : ""
+              }
+            >
+              Users
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=YourFont&display=swap");
+
+.todoListWrapper {
+  font-family: "Oswald", sans-serif;
+  border: 1px solid black;
+  border-radius: 25px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.todoListId {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.todoListTodo {
+  color: black;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.todoListCompleted {
+  color: black;
+}
+
+.todoListUserId {
+  color: black;
+  text-align: center;
+}
+
+.btntodoListDone {
+  max-width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

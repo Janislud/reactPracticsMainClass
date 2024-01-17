@@ -2,8 +2,9 @@ import { Todo } from "../components/Todo/Todo";
 
 export const TodosPage = () => {
   return (
-    <div>
+    <main>
+      {/* Передаю Todo в TodosPage Для атрисовки */}
       <Todo />
-    </div>
+    </main>
   );
 };
